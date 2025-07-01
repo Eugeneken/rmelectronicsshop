@@ -31,7 +31,7 @@ h6 {
 
 p {
     font-size: 16px;
-    color: #465b52;
+    color: #0631ef;
     margin: 15px 0 20px 0;
 }
 
@@ -79,7 +79,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #E3E6F3;
+    background: #ee0509;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
@@ -108,7 +108,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #088178;
+    color: #5807ee;
 }
 
 #navbar li a:hover::after,
@@ -116,7 +116,7 @@ body {
     content: "";
     width: 30%;
     height: 2px;
-    background: #088178;
+    background: #df0808;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -135,10 +135,10 @@ body {
 
 #hero {
     background-image: url(images/hero4.png);
-    width: 100%;
-    height: 90vh;
+    width: 60vh;
+    height: 70vh;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: top 25% right 25%;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -151,13 +151,13 @@ body {
 }
 
 #hero h1 {
-    color: #088178;
+    color: #df0808;
 }
 
 #hero button {
     background-image: url(images/button.png);
     background-color: transparent;
-    color: #088178;
+    color: #df0808;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ body {
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #088178;
+    color: #df0808;
     background-color: #fddde4;
 }
 
@@ -234,9 +234,10 @@ body {
 
 #product1 .pro {
     width: 23%;
-    min-width: 250px;
+    min-width: 50px;
+    height:fit-content;
     padding: 10px 12px;
-    border: 1px solid #cce7d0;
+    border: 1px solid #eb1d02;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -279,7 +280,7 @@ body {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
-    color: #088178;
+    color: #df0808;
 }
 
 #product1 .pro .cart {
@@ -289,7 +290,7 @@ body {
     border-radius: 50px;
     background-color: #e8f6ea;
     font-weight: 500;
-    color: #088178;
+    color: #df0808;
     border: 1px solid #cce7d0;
     position: absolute;
     bottom: 20px;
@@ -325,7 +326,7 @@ body {
 }
 
 #banner button:hover {
-    background-color: #088178;
+    background-color: #df0808;
     color: #fff;
 }
 
@@ -369,8 +370,8 @@ body {
 }
 
 #sm-banner .banner-box:hover button{
-    background-color: #088178;
-    border: 1px solid #088178;
+    background-color: #df0808;
+    border: 1px solid #df0808;
 }
 
 #sm-banner .banner-box:nth-child(2) {
@@ -408,13 +409,13 @@ body {
 }
 
 #banner3 h2 {
-    color: #fff;
+    color: #e60909;
     font-weight: 900;
     font-size: 22px;
 }
 
 #banner3 h3 {
-    color: #ec544e;
+    color: #050def;
     font-weight: 800;
     font-size: 15px;
 }
@@ -433,7 +434,7 @@ body {
 #newsletter h4 {
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
+    color: #ea0808;
 }
 
 #newsletter p {
@@ -464,7 +465,7 @@ body {
 }
 
 #newsletter button {
-    background-color: #088178;
+    background-color: #df0808;
     color: #fff;
     white-space: nowrap;
     border-top-left-radius: 0;
@@ -510,20 +511,20 @@ footer .follow {
 }
 
 footer .follow i{
-    color: #465b52;
+    color: #0631ef;
     padding-right: 4px;
     cursor: pointer;
 }
 
 footer .install .row img{
-    border: 1px solid #088178;
+    border: 1px solid #df0808;
     border-radius: 6px;
     margin: 10px 0 15px 0;
 }
 
 footer .follow i:hover,
 footer a:hover {
-    color: #088178;
+    color: #df0808;
 }
 
 footer .copyright {
@@ -556,7 +557,7 @@ footer .copyright {
 
 #pagination a {
     text-decoration: none;
-    background-color: #088178;
+    background-color: #df0808;
     padding: 15px 20px;
     border-radius: 4px;
     color: #fff;
@@ -618,7 +619,7 @@ footer .copyright {
 }
 
 #productdetails .single-pro-details button {
-    background-color: #088178;
+    background-color: #df0808;
     color: #fff;
 }
 
@@ -683,11 +684,11 @@ footer .copyright {
 }
 
 #blog .blog-details a:hover {
-    color: #088178;
+    color: #df0808;
 }
 
 #blog .blog-details a:hover::after {
-    background-color: #088178;
+    background-color: #df0808;
 }
 
 #blog .blog-box h1 {
@@ -818,7 +819,7 @@ footer .copyright {
 }
 
 #form-details form button {
-    background-color: #088178;
+    background-color: #df0808;
     color: #fff;
 }
 
@@ -939,7 +940,7 @@ footer .copyright {
 
 #cart-add .coupon button,
 #cart-add .subtotal button {
-    background-color: #088178;
+    background-color: #df0808;
     color: #fff;
     padding: 12px 20px;
 }
