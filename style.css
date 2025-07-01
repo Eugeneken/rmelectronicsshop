@@ -138,7 +138,7 @@ body {
     width: 60vh;
     height: 70vh;
     background-size: cover;
-    background-position: top 25% right 25%;
+    background-position: right center;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
